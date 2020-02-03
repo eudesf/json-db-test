@@ -1,0 +1,15 @@
+[
+  '{{repeat(1000)}}',
+  {
+    "id": "{{uuid()}}",
+    "name": "Test",
+    "attributes": [
+      '{{repeat(2)}}',
+      {
+        "shirt": "{{random("red","yellow","green")}}",
+        "pants": "{{random("blue","black","orange")}}"
+      }
+    ]
+
+  }
+]
